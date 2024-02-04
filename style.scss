@@ -1,3 +1,46 @@
+$Pale-Blue: hsl(225, 100%, 94%);
+$Bright-Blue: hsl(245, 75%, 52%);
+$Very-Pale-Blue: hsl(225, 100%, 98%);
+$Desaturated-Blue: hsl(224, 23%, 55%);
+$Dark-Blue: hsl(223, 47%, 23%);
+
+@font-face {
+  font-family: "RedHatDisplay";
+  src: url(./assets/Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf)
+    format("truetype");
+  font-style: normal;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  min-width: 0;
+
+  font-family: "RedHatDisplay", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+
+  background-color: $Very-Pale-Blue;
+}
+
+main {
+  width: 100vw;
+  height: 100vh;
+}
+
+.card {
+  min-width: 327px;
+  max-width: 450px;
+  background-color: #fff;
+  border-radius: 20px;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.card-img {
+  width: 100%;
+  border: 1px solid red;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
